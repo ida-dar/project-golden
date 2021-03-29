@@ -206,6 +206,35 @@ section {
     }
 }
 
+/* Portfolio */
+.portfolio {
+    background-color: $color-bg;
+    text-align: center;
+    h4 {
+        font-family: $font-decor;
+        font-style: italic;
+        font-size: 14px;
+        margin: 0;
+        text-transform: capitalize;
+        color: $color-text;
+    }
+}
+
+.portfolio-img {
+    height: 400px;
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.portfolio-text {
+    background-color: $color-light;
+    padding: 20px;
+    margin-bottom: 48px;
+}
+
 /* Media */
 @media (min-width: 768px) {
     .navbar {
