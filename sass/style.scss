@@ -128,3 +128,23 @@ section {
     visibility: visible;
     transition: all .2s ease;
 }
+
+
+
+/* Media */
+@media (min-width: 768px) {
+    .navbar {
+        background-color: transparent;
+    }
+    .menu {
+        visibility: visible;
+        max-height: 200px;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: relative;
+        background-color: transparent;
+    }
+    .hero .menu-icon {
+        display: none;
+    }
+}
