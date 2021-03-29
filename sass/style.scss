@@ -235,6 +235,35 @@ section {
     margin-bottom: 48px;
 }
 
+/* Footer */
+footer {
+    margin: 0;
+    padding: 24px 0;
+    .row {
+        align-items: center;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+.social-media {
+    text-align: center;
+    a {
+        font-size: 0;
+    }
+    i {
+    margin: 0 5px;
+    color: $color-light;
+    background-color: $color-dark;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    }
+}
+
 /* Media */
 @media (min-width: 768px) {
     .navbar {
