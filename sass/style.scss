@@ -265,6 +265,24 @@ footer {
 }
 
 /* Media */
+@media (min-width: 320px) and (max-width: 768px) {
+    .hero {
+        .page-title {
+            font-size: 48px;
+        }
+        .page-subtitle {
+            font-size: 28px;
+        }
+        .btn {
+            transform: scale(0.8);
+        }
+    }
+    footer {
+        text-align: center;
+    }
+
+}
+
 @media (min-width: 768px) {
     .navbar {
         background-color: transparent;
