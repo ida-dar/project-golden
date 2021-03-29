@@ -129,7 +129,54 @@ section {
     transition: all .2s ease;
 }
 
+/* Hero */
+.hero {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $color-light;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .hero-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .page-title {
+        font-size: 75px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .page-subtitle {
+        font-family: $font-decor;
+        font-size: 40px;
+        font-style: italic;
+        text-transform: capitalize;
+        margin: 0;
+    }
+}
 
+.btn {
+    margin-top: 48px;
+    padding: 15px 40px;
+    color: $color-light;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: $color-main;
+    border-radius: 2px;
+}
 
 /* Media */
 @media (min-width: 768px) {
