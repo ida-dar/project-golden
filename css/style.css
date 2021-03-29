@@ -1,2 +1,50 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222;
+  margin: 0;
+}
+
+.section-subtitle {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #777;
+  margin: 0;
+}
+
+.content-title {
+  font-size: 18px;
+  margin: 0;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQSxXQUFBO0FBV0E7RUFDSSxzQkFBc0I7QUNiMUI7O0FEZ0JBO0VBQ0ksdUJBQXVCO0FDYjNCOztBRGdCQTtFQUNJLFNBQVM7RUFDVCxnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLHFDQXRCZ0M7QUNTcEM7O0FEZ0JBO0VBQ0ksZUFBZTtBQ2JuQjs7QURnQkE7RUFDSSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsbUJBQW1CO0FDYnZCOztBRGdCQTtFQUNJLGVBQWU7RUFDZixpQkFBaUI7RUFDakIseUJBQXlCO0VBQ3pCLFdBbkNhO0VBb0NiLFNBQVM7QUNiYjs7QURnQkE7RUFDSSx3Q0E1Q29DO0VBNkNwQyxlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLFdBMUNhO0VBMkNiLFNBQVM7QUNiYjs7QURnQkE7RUFDSSxlQUFlO0VBQ2YsU0FBUztFQUNULDBCQUEwQjtBQ2I5QiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

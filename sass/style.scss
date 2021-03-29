@@ -1,0 +1,63 @@
+// * {
+//     border: 1px solid red;
+// }
+
+/* Global */
+$font-main: 'Montserrat', sans-serif;
+$font-text: 'Roboto Slab', serif;
+$font-decor: 'Gentium Book Basic', serif;
+$font-brand-name: 'Great Vibes', cursive;
+$color-main: #FED136;
+$color-light: #fff;
+$color-dark: #222;
+$color-text: #777;
+$color-bg: #F7F7F7;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    line-height: 1.7;
+    font-size: 16px;
+    font-family: $font-main;
+}
+
+section {
+    padding: 96px 0;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color-dark;
+    margin: 0;
+}
+
+.section-subtitle {
+    font-family: $font-decor;
+    font-size: 16px;
+    font-style: italic;
+    color: $color-text;
+    margin: 0;
+}
+
+.content-title {
+    font-size: 18px;
+    margin: 0;
+    text-transform: capitalize;
+}
