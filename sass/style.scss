@@ -61,3 +61,70 @@ section {
     margin: 0;
     text-transform: capitalize;
 }
+
+/* Navbar - inside .hero */
+.navbar {
+    width: 100%;
+    position: absolute; // absolute to .hero
+    top: 0;
+    background-color: $color-dark;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative; //relative to .menu
+    }
+}
+
+.brand-name {
+    font-family: $font-brand-name;
+    color: $color-main;
+    font-size: 28px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    position: absolute; // absolute to .navbar .container
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: $color-dark;
+    visibility: hidden;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .2s ease;
+    li {
+        padding: 5px 30px;
+        font-size: 14px;
+        text-transform: uppercase;
+        a {
+            text-decoration: none;
+            color: $color-light;
+            font-weight: 600;
+        }
+    }
+}
+
+.menu a:hover, a:focus {
+    color: $color-main;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: $color-main;
+    background: $color-light;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+#menu-btn:checked ~ .menu {
+    max-height: 200px;
+    padding: 15px 0;
+    visibility: visible;
+    transition: all .2s ease;
+}
