@@ -178,6 +178,11 @@ section {
     border-radius: 2px;
 }
 
+.btn:hover {
+    color: $color-main;
+    background: $color-light;
+}
+
 /* Media */
 @media (min-width: 768px) {
     .navbar {
